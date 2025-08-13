@@ -1,11 +1,13 @@
-import Menu from './components/Menu';
+import { BrowserRouter } from "react-router-dom";
+import MainRoutes from "./routes";
+import Menu from "./components/Menu";
 
 function App() {
   return (
-    <div>
-      <Menu/>
-      <h1>Testando bootstrap</h1>
-    </div>
+    <BrowserRouter>
+    <Menu/>
+      <MainRoutes />
+    </BrowserRouter>
 
 
   );
