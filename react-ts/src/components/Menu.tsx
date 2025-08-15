@@ -1,8 +1,14 @@
+import {Link} from "react-router-dom";
+
 const Menu = () =>{
     return (
-        <div>
-            Menu
+    <nav className="navbar navbar-light nav-bar expand-lg bg-success">
+        <div className="container-fluid">
+            <Link className='navbar-brand' to='/'>
+            <span className='ml-1 text-light'> Dio Study</span>
+            </Link> 
         </div>
+    </nav>
     )
 }
 
